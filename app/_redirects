@@ -15,7 +15,7 @@
 /hub/kong-inc/sessions/                     /hub/kong-inc/session/
 /hub/kong-inc/zipkin/http-log/              /hub/kong-inc/zipkin/
 
-# Old plugin directory
+# Old plugin directories
 /plugins/                                   /hub/
 /plugins/acl/                               /hub/kong-inc/acl/
 /plugins/aws-lambda/                        /hub/kong-inc/aws-lambda/
@@ -60,3 +60,11 @@
 /plugins/tcp-log/                           /hub/kong-inc/tcp-log/
 /plugins/udp-log/                           /hub/kong-inc/udp-log/
 /plugins/zipkin/                            /hub/kong-inc/zipkin/
+/enterprise/*/plugins/canary-release/       /hub/kong-inc/canary/
+/enterprise/0.31-x/plugins/forward-proxy/        /hub/kong-inc/forward-proxy/
+/enterprise/latest/plugins/forward-proxy/        /hub/kong-inc/forward-proxy/
+/enterprise/latest/plugins/http-proxy-caching/   /hub/kong-inc/proxy-cache-advanced/
+/enterprise/:subdir/plugins/oauth2-introspection/ /hub/kong-inc/oauth2-introspection/
+/enterprise/:subdir/plugins/openid-connect/       /hub/kong-inc/openid-connect/
+/enterprise/:subdir/plugins/rate-limiting/        /hub/kong-inc/rate-limiting-advanced/
+/enterprise/:subdir/plugins/request-transformer-advanced/  /hub/kong-inc/request-transformer-advanced/
