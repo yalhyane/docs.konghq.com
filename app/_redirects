@@ -5,5 +5,8 @@
 # plugins
 /hub/kong-inc/deck/                         /deck/
 /hub/hbagdi/deck/                           /deck/
-/hub/api-fortress/api-fortress-http-log/    /hub/ 
+/hub/api-fortress/api-fortress-http-log/    /hub/
 /hub/api-fortress/api-fortress-http-log/*   /hub/
+/hub/kong-inc/ee-openid-connect-rp/         /hub/kong-inc/openid-connect/
+/hub/kong-inc/kubernetes-sidecar-injector/  https://kuma.io/docs/latest/installation/kubernetes/
+/hub/zillowgroup/kong-terraform/            /hub/kong-inc/kong-terraform-aws
