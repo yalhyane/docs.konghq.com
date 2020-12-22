@@ -2,7 +2,7 @@
 /enterprise/latest/getting-started/   /getting-started-guide/latest/overview/
 /enterprise/1.5.x/getting-started/    /getting-started-guide/ce-2.0.x_ke-1.5.x/overview/
 
-# plugins
+# Plugins (deprecated or moved)
 /hub/kong-inc/deck/                         /deck/
 /hub/hbagdi/deck/                           /deck/
 /hub/api-fortress/api-fortress-http-log/    /hub/
@@ -10,3 +10,49 @@
 /hub/kong-inc/ee-openid-connect-rp/         /hub/kong-inc/openid-connect/
 /hub/kong-inc/kubernetes-sidecar-injector/  https://kuma.io/docs/latest/installation/kubernetes/
 /hub/zillowgroup/kong-terraform/            /hub/kong-inc/kong-terraform-aws
+
+# Old plugin directory
+/plugins/                                   /hub/
+/plugins/acl/                               /hub/kong-inc/acl/
+/plugins/aws-lambda/                        /hub/kong-inc/aws-lambda/
+/plugins/azure-functions/                   /hub/kong-inc/azure-functions/
+/plugins/basic-authentication/              /hub/kong-inc/basic-auth/
+/plugins/bot-detection/                     /hub/kong-inc/bot-detection
+/plugins/correlation-id/                    /hub/kong-inc/correlation-id/
+/plugins/cors/                              /hub/kong-inc/cors/
+/plugins/datadog/                           /hub/kong-inc/datadog/
+/plugins/ee-canary-release/                 /hub/kong-inc/canary/
+/plugins/ee-forward-proxy/                  /hub/kong-inc/forward-proxy/
+/plugins/ee-ldap-authentication/            /hub/kong-inc/ldap-auth-advanced/
+/plugins/ee-oauth2-introspection/           /hub/kong-inc/oauth2-introspection/
+/plugins/ee-openid-connect-rp/              /hub/kong-inc/openid-connect/
+/plugins/ee-openid-connect/                 /hub/kong-inc/openid-connect
+/plugins/ee-proxy-caching/                  /hub/kong-inc/proxy-cache/
+/plugins/ee-rate-limiting/                  /hub/kong-inc/rate-limiting-advanced/
+/plugins/ee-request-transformer/            /hub/kong-inc/request-transformer-advanced/
+/plugins/ee-response-transformer/           /hub/kong-inc/response-transformer-advanced/
+/plugins/ee-statsd/                         /hub/kong-inc/statsd-advanced/
+/plugins/file-log/                          /hub/kong-inc/file-log/
+/plugins/galileo/                           https://support.konghq.com/
+/plugins/hmac-authentication/               /hub/kong-inc/hmac-auth/
+/plugins/http-log/                          /hub/kong-inc/http-log/
+/plugins/ip-restriction/                    /hub/kong-inc/ip-restriction/
+/plugins/jwt/                               /hub/kong-inc/jwt/
+/plugins/key-authentication/                /hub/kong-inc/key-auth/
+/plugins/loggly/                            /hub/kong-inc/loggly/
+/plugins/mashape-analytics/                 /enterprise/latest/vitals/overview/
+/plugins/oauth2-authentication/             /hub/kong-inc/oauth2/
+/plugins/openwhisk/                         /hub/kong-inc/openwhisk/
+/plugins/prometheus/                        /hub/kong-inc/prometheus/
+/plugins/rate-limiting/                     /hub/kong-inc/rate-limiting/
+/plugins/request-size-limiting/             /hub/kong-inc/request-size-limiting/
+/plugins/request-termination/               /hub/kong-inc/request-termination/
+/plugins/request-transformer/               /hub/kong-inc/request-transformer/
+/plugins/response-rate-limiting/            /hub/kong-inc/response-ratelimiting/
+/plugins/response-transformer/              /hub/kong-inc/response-transformer/
+/plugins/serverless-functions/              /hub/kong-inc/response-ratelimiting/
+/plugins/statsd/                            /hub/kong-inc/statsd/
+/plugins/syslog/                            /hub/kong-inc/syslog/
+/plugins/tcp-log/                           /hub/kong-inc/tcp-log/
+/plugins/udp-log/                           /hub/kong-inc/udp-log/
+/plugins/zipkin/                            /hub/kong-inc/zipkin/
