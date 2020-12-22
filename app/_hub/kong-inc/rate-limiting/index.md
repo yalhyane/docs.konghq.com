@@ -1,8 +1,6 @@
 ---
 name: Rate Limiting
 publisher: Kong Inc.
-redirect_from:
-  - /enterprise/0.35-x/rate-limiting/
 version: 2.2.x
 
 desc: Rate-limit how many HTTP requests can be made in a period of time

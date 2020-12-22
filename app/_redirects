@@ -2,14 +2,18 @@
 /enterprise/latest/getting-started/   /getting-started-guide/latest/overview/
 /enterprise/1.5.x/getting-started/    /getting-started-guide/ce-2.0.x_ke-1.5.x/overview/
 
-# Plugins (deprecated or moved)
+# Plugins (deprecated, moved, or renamed)
 /hub/kong-inc/deck/                         /deck/
 /hub/hbagdi/deck/                           /deck/
 /hub/api-fortress/api-fortress-http-log/    /hub/
 /hub/api-fortress/api-fortress-http-log/*   /hub/
 /hub/kong-inc/ee-openid-connect-rp/         /hub/kong-inc/openid-connect/
 /hub/kong-inc/kubernetes-sidecar-injector/  https://kuma.io/docs/latest/installation/kubernetes/
-/hub/zillowgroup/kong-terraform/            /hub/kong-inc/kong-terraform-aws
+/hub/zillowgroup/kong-terraform/            /hub/kong-inc/kong-terraform-aws/
+/enterprise/0.35-x/rate-limiting/           /hub/kong-inc/rate-limiting/
+/hub/kong-in/sessions/                      /hub/kong-inc/session/
+/hub/kong-inc/sessions/                     /hub/kong-inc/session/
+/hub/kong-inc/zipkin/http-log/              /hub/kong-inc/zipkin/
 
 # Old plugin directory
 /plugins/                                   /hub/
